@@ -1,0 +1,29 @@
+body {
+    background-color: gray;
+}
+
+.wrapper {
+    padding: 50px;
+    height: 100%;
+}
+
+.menu {
+    height: 500px;
+    display: grid;
+    grid-template: 1fr 1fr 1fr/ 1fr;
+}
+
+.menu_item {
+    background-color: burlywood;
+    border-radius: 2em;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: inherit;
+    color: inherit;
+    margin-bottom: 100px;
+    width: 100%;
+}
+
+.menu_item:first-child:hover {
+    color: wheat;
+}
